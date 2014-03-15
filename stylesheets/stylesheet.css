@@ -4,7 +4,7 @@ body, p, img, section {
   padding: 0;
   border: 0;
   color: #fff;
-  font-family: calibri, arial, helvetica, sans-serif;
+  font-family: 'Pathway Gothic One', calibri, arial, helvetica, sans-serif;
   font-size: 30px;
   text-shadow: 1px 1px 3px #000;
 }
