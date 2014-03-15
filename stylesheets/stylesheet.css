@@ -75,7 +75,7 @@ body, p, img, section {
   position: relative;
 }
 /* line 59, styles.scss */
-.slide .content {
+.slide .content, .last-slide .content {
   width: 90%;
   margin: 0 5%;
   max-width: 1000px;
@@ -84,7 +84,7 @@ body, p, img, section {
   font-size: 0;
 }
 /* line 66, styles.scss */
-.slide .content:before {
+.slide .content:before, .last-slide.content:before {
   content: '';
   display: inline-block;
   height: 100%;
@@ -92,7 +92,7 @@ body, p, img, section {
   margin-right: -0.25em;
 }
 /* line 73, styles.scss */
-.slide .content .centerize {
+.slide .content .centerize, .last-slide .content .centerize {
   display: inline-block;
   vertical-align: middle;
   width: 40%;
@@ -100,6 +100,9 @@ body, p, img, section {
 }
 .last-slide {
   background: #000;
+}
+.last-slide .content .centerize {
+  width: 100%;
 }
 
 @media (min-width: 1111px) {
