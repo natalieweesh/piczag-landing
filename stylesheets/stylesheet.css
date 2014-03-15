@@ -152,4 +152,9 @@ body {
   #wrapper {
     display: none;
   }
+  .LR-site-title {
+		padding: 0 !important;
+		display: none !important;
+	}
+	.LR-pwd-lr {display: none !important;}
 }
