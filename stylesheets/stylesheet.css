@@ -98,6 +98,9 @@ body, p, img, section {
   width: 40%;
   font-size: 30px;
 }
+.last-slide {
+  background: #000;
+}
 
 @media (min-width: 1111px) {
   /* line 82, styles.scss */
