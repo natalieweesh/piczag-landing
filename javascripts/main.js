@@ -1,4 +1,5 @@
 <script type="text/javascript" src="//ignition.launchrock.com/ignition-current.min.js"></script>
+<script type="text/javascript" src="jquery-1.11.0.js"></script>
 
 var adjustIphone = function() {
   var iphoneHeight = 569;
