@@ -131,7 +131,6 @@ body {
   /* line 102, styles.scss */
   .slide .content .centerize, .last-slide .content .centerize {
     width: 100%;
-    vertical-align: top;
   }
   /* line 107, styles.scss */
   .slide .content .mobile-image {
