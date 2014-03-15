@@ -125,19 +125,18 @@ body {
   }
   /* line 99, styles.scss */
   .slide .content, .last-slide .content {
-    height: 50%;
+    height: 150px;
     text-align: center;
   }
   /* line 102, styles.scss */
   .slide .content .centerize, .last-slide .content .centerize {
     width: 100%;
     vertical-align: top;
-    padding-top: 100px;
   }
   /* line 107, styles.scss */
   .slide .content .mobile-image {
     display: block;
-    top: 69%;
+    top: 150px;
     position: absolute;
     width: 260px;
     left: 50%;
