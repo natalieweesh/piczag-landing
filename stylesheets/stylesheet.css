@@ -87,7 +87,7 @@ body {
   font-size: 0;
 }
 /* line 66, styles.scss */
-.slide .content:before, .last-slide.content:before {
+.slide .content:before, .last-slide .content:before {
   content: '';
   display: inline-block;
   height: 100%;
@@ -101,12 +101,6 @@ body {
   width: 40%;
   font-size: 30px;
 }
-.last-slide {
-  background: #000;
-}
-.last-slide .content .centerize {
-  width: 100%;
-}
 
 @media (min-width: 1111px) {
   /* line 82, styles.scss */
@@ -117,7 +111,7 @@ body {
   }
 
   /* line 88, styles.scss */
-  .slide .content {
+  .slide .content, .last-slide .content {
     width: 1000px;
     left: 50%;
     margin-left: -500px;
@@ -125,17 +119,17 @@ body {
 }
 @media (max-width: 720px) {
   /* line 96, styles.scss */
-  .slide {
+  .slide, .last-slide {
     min-height: 700px;
     background-attachment: initial;
   }
   /* line 99, styles.scss */
-  .slide .content {
+  .slide .content, .last-slide .content {
     height: 50%;
     text-align: center;
   }
   /* line 102, styles.scss */
-  .slide .content .centerize {
+  .slide .content .centerize, .last-slide .content .centerize {
     width: 100%;
     vertical-align: top;
     padding-top: 100px;
