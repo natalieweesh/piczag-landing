@@ -119,9 +119,6 @@ body {
     margin-left: -500px;
   }
   
-  .slide .content .centerize, .last-slide .content .centerize {
-    padding-left: 0;
-  }
 }
 @media (max-width: 720px) {
   /* line 96, styles.scss */
@@ -141,6 +138,7 @@ body {
   /* line 102, styles.scss */
   .slide .content .centerize, .last-slide .content .centerize {
     width: 100%;
+    padding-left: 0;
   }
   /* line 107, styles.scss */
   .slide .content .mobile-image {
