@@ -103,6 +103,9 @@ body {
   padding-left: 10%;
   font-size: 30px;
 }
+.last-slide .content .centerize {
+  margin-top: -3em;
+}
 
 @media (min-width: 1111px) {
   /* line 82, styles.scss */
@@ -139,6 +142,9 @@ body {
   .slide .content .centerize, .last-slide .content .centerize {
     width: 100%;
     padding-left: 0;
+  }
+  .last-slide .content .centerize {
+    margin-top: 0;
   }
   /* line 107, styles.scss */
   .slide .content .mobile-image {
