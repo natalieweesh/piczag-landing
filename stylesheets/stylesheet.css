@@ -74,6 +74,7 @@ body {
   min-height: 580px;
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   background-position: center center;
   position: relative;
 }
@@ -122,6 +123,7 @@ body {
   .slide, .last-slide {
     min-height: 700px !important;
     background-attachment: scroll;
+    background-position: center center !important;
   }
   .last-slide {
     min-height: 350px !important;
