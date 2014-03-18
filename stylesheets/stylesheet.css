@@ -127,6 +127,12 @@ body {
   
 }
 @media (max-width: 720px) {
+  p {
+    font-size: 28px;
+  }
+  .smaller {
+    font-size: 18px;
+  }
   /* line 96, styles.scss */
   .slide, .last-slide {
     min-height: 700px !important;
