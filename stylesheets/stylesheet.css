@@ -176,7 +176,7 @@ body {
   }*/
   .slide .content .mobile-image {
     display: inline-block;
-    margin-top: 100px;
+    margin-top: 2em;
   }
   /* line 114, styles.scss */
   .slide .content .mobile-image img {
