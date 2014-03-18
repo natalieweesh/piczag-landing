@@ -153,6 +153,9 @@ body {
     padding-left: 0;
     vertical-align: top;
   }
+  .slide .content .centerize > p:first {
+    padding-top: 2em;
+  }
   .last-slide .content .centerize {
     margin-top: 0;
   }
