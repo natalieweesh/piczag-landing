@@ -168,6 +168,9 @@ body {
     left: 50%;
     margin-left: -130px;
   }
+  .slide:first-of-type .content .mobile-image {
+    bottom: 50px;
+  }
   /* line 114, styles.scss */
   .slide .content .mobile-image img {
     width: 260px;
