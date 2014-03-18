@@ -160,7 +160,7 @@ body {
     margin-top: 0;
   }
   /* line 107, styles.scss */
-  .slide .content .mobile-image {
+  /*.slide .content .mobile-image {
     display: block;
     bottom: 150px;
     position: absolute;
@@ -170,6 +170,9 @@ body {
   }
   .slide:first-of-type .content .mobile-image {
     bottom: 50px;
+  }*/
+  .slide .content .mobile-image {
+    display: inline-block;
   }
   /* line 114, styles.scss */
   .slide .content .mobile-image img {
