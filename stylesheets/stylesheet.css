@@ -128,10 +128,10 @@ body {
 }
 @media (max-width: 720px) {
   p {
-    font-size: 28px;
+    font-size: 30px;
   }
   .smaller {
-    font-size: 18px;
+    font-size: 20px;
   }
   /* line 96, styles.scss */
   .slide, .last-slide {
