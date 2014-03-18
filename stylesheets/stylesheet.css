@@ -135,9 +135,12 @@ body {
   }
   /* line 96, styles.scss */
   .slide, .last-slide {
-    min-height: 1000px !important;
+    min-height: 900px !important;
     background-attachment: scroll;
     background-position: center center !important;
+  }
+  .slide:first-of-type {
+    min-height: 1200px !important;
   }
   .last-slide {
     min-height: 250px !important;
