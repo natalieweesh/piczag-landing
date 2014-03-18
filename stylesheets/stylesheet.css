@@ -144,7 +144,7 @@ body {
   }
   /* line 99, styles.scss */
   .slide .content, .last-slide .content {
-    height: 150px;
+    height: 100%;
     text-align: center;
   }
   /* line 102, styles.scss */
@@ -158,7 +158,7 @@ body {
   /* line 107, styles.scss */
   .slide .content .mobile-image {
     display: block;
-    top: 150px;
+    bottom: 150px;
     position: absolute;
     width: 260px;
     left: 50%;
