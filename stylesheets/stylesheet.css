@@ -15,6 +15,10 @@ body {
   font-family: 'Metrophobic', calibri, arial, helvetica, sans-serif;
   font-size: 20px;
 }
+.bigger {
+  font-family: 'Metrophibic', calibri, arial, helvetica, sans-serif;
+  font-size: 30px;
+}
 /* line 10, styles.scss */
 #wrapper {
   width: 90%;
@@ -132,6 +136,9 @@ body {
   }
   .smaller {
     font-size: 20px;
+  }
+  .bigger {
+    font-size: 30px;
   }
   /* line 96, styles.scss */
   .slide, .last-slide {
