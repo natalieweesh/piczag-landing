@@ -146,7 +146,7 @@ body {
     background-attachment: scroll;
     background-position: center center !important;
   }
-  .slide:first-of-type {
+  .slide:first-of-type, .slide:last-of-type {
     min-height: 1200px !important;
   }
   .last-slide {
