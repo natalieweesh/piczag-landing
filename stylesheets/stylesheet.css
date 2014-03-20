@@ -7,6 +7,7 @@ body, p, img, section {
   font-family: 'Pathway Gothic One', calibri, arial, helvetica, sans-serif;
   font-size: 35px;
   text-shadow: 1px 1px 3px #000;
+  line-height: 1.2em;
 }
 body {
   background: #000;
