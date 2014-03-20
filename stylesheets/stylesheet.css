@@ -130,6 +130,13 @@ body {
   }
   
 }
+
+@media (max-width: 876px) {
+  .slide .content .centerize, .last-slide .content .centerize {
+    width: 50%;
+  }
+}
+
 @media (max-width: 720px) {
   p {
     font-size: 30px;
