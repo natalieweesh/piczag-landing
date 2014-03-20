@@ -131,7 +131,7 @@ body {
   
 }
 
-@media (max-width: 876px) {
+@media (min-width: 876px) {
   .slide .content .centerize, .last-slide .content .centerize {
     width: 50%;
   }
