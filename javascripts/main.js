@@ -44,7 +44,7 @@ $(document).ready(function(){
           console.log('slide1 on');
         }, 1000);  
       }, 6000);
-    }, 1000);
+    }, 2000);
 
     setTimeout(function(){
       setInterval(function(){
@@ -56,7 +56,7 @@ $(document).ready(function(){
           console.log('slide2 on');
         }, 1000);  
       }, 6000);
-    }, 3000);
+    }, 4000);
 
     setTimeout(function(){
       setInterval(function(){
@@ -68,7 +68,7 @@ $(document).ready(function(){
           console.log('slide3 on');
         }, 1000);  
       }, 6000);
-    }, 5000);
+    }, 6000);
 
 
 
