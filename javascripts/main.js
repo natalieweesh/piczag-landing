@@ -34,7 +34,7 @@ $(document).ready(function(){
     $slide2.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '1'});
     $slide3.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
     
-    setTimeout(function(){
+    //setTimeout(function(){
       setInterval(function(){
         $slide1.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
         console.log('slide1 off');
@@ -42,9 +42,9 @@ $(document).ready(function(){
           $slide2.css({'z-index': '2'});
           $slide1.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '1'});
           console.log('slide1 on');
-        }, 1000);  
+        }, 2000);  
       }, 6000);
-    }, 1000);
+    //}, 1000);
 
     setTimeout(function(){
       setInterval(function(){
@@ -54,9 +54,9 @@ $(document).ready(function(){
           $slide3.css({'z-index': '2'});
           $slide2.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '1'});
           console.log('slide2 on');
-        }, 1000);  
+        }, 2000);  
       }, 6000);
-    }, 3000);
+    }, 2000);
 
     setTimeout(function(){
       setInterval(function(){
@@ -66,9 +66,9 @@ $(document).ready(function(){
           $slide1.css({'z-index': '2'});
           $slide3.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '1'});
           console.log('slide3 on');
-        }, 1000);  
+        }, 2000);  
       }, 6000);
-    }, 5000);
+    }, 4000);
 
 
 
