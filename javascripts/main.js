@@ -30,16 +30,17 @@ $(document).ready(function(){
     var $slide1 = $(slides[0]);
     var $slide2 = $(slides[1]);
     var $slide3 = $(slides[2]);
-    $slide1.css({'filter': 'alpha(opacity=100)', 'opacity': '1'});
-    $slide2.css({'filter': 'alpha(opacity=100)', 'opacity': '1'});
+    $slide1.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '2'});
+    $slide2.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '1'});
     $slide3.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
-    /*
+    
     setTimeout(function(){
       setInterval(function(){
         $slide1.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
         console.log('slide1 off');
         setTimeout(function(){
-          $slide1.css({'filter': 'alpha(opacity=100)', 'opacity': '1'});
+          $slide2.css({'z-index': '2'});
+          $slide1.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '1'});
           console.log('slide1 on');
         }, 1000);  
       }, 6000);
@@ -50,7 +51,8 @@ $(document).ready(function(){
         $slide2.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
         console.log('slide2 off');
         setTimeout(function(){
-          $slide2.css({'filter': 'alpha(opacity=100)', 'opacity': '1'});
+          $slide3.css({'z-index': '2'});
+          $slide2.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '1'});
           console.log('slide2 on');
         }, 1000);  
       }, 6000);
@@ -61,13 +63,14 @@ $(document).ready(function(){
         $slide3.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
         console.log('slide3 off');
         setTimeout(function(){
-          $slide3.css({'filter': 'alpha(opacity=100)', 'opacity': '1'});
+          $slide1.css({'z-index': '2'});
+          $slide3.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '1'});
           console.log('slide3 on');
         }, 1000);  
       }, 6000);
     }, 5000);
 
-*/
+
 
   });
 
