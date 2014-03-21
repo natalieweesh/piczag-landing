@@ -1,3 +1,8 @@
+@keyframes slideshow {
+  0% {filter: alpha(opacity=0); opacity: 0;}
+  33% {filter: alpha(opacity=100); opacity: 1;}
+}
+
 /* line 1, styles.scss */
 body, p, img, section {
   margin: 0;
@@ -32,6 +37,12 @@ body {
   position: absolute;
   width: 270px;
   right: 0;
+}
+.iphone-screen .slideshow-image {
+  position: absolute;
+  filter: alpha(opacity=100);
+  opacity: 1;
+  animation: slideshow 1s linear infinite; 
 }
 
 /* line 20, styles.scss */
