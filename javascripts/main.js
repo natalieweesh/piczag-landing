@@ -25,6 +25,41 @@ $(document).ready(function(){
 
   });
 
+  $('.slideshow-container').each(function(){
+    var slides = $(this).find('.slideshow-image');
+    var slide1 = $(slides[0]);
+    var slide2 = $(slides[1]);
+    var slide3 = $(slides[2]);
+    setTimeout(function(){
+      setInterval(function(){
+        $slide1.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
+        setTimeout(function(){
+          $slide1.css({'filter': 'alpha(opacity=100)', 'opacity': '1'});
+        }, 1000);  
+      }, 3000);
+    }, 1000);
+
+    setTimeout(function(){
+      setInterval(function(){
+        $slide2.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
+        setTimeout(function(){
+          $slide2.css({'filter': 'alpha(opacity=100)', 'opacity': '1'});
+        }, 1000);  
+      }, 3000);
+    }, 2000);
+
+    setTimeout(function(){
+      setInterval(function(){
+        $slide3.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
+        setTimeout(function(){
+          $slide3.css({'filter': 'alpha(opacity=100)', 'opacity': '1'});
+        }, 1000);  
+      }, 3000);
+    }, 3000);
+
+
+
+  });
 
   $(window).scroll(function(){
     var distances = [];
