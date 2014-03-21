@@ -34,7 +34,7 @@ $(document).ready(function(){
     $slide2.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '1'});
     $slide3.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
     
-    //setTimeout(function(){
+    setTimeout(function(){
       setInterval(function(){
         $slide1.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
         console.log('slide1 off');
@@ -44,7 +44,7 @@ $(document).ready(function(){
           console.log('slide1 on');
         }, 2000);  
       }, 6000);
-    //}, 1000);
+    }, 1000);
 
     setTimeout(function(){
       setInterval(function(){
@@ -56,7 +56,7 @@ $(document).ready(function(){
           console.log('slide2 on');
         }, 2000);  
       }, 6000);
-    }, 1000);
+    }, 3000);
 
     setTimeout(function(){
       setInterval(function(){
@@ -68,7 +68,7 @@ $(document).ready(function(){
           console.log('slide3 on');
         }, 2000);  
       }, 6000);
-    }, 3000);
+    }, 5000);
 
 
 
