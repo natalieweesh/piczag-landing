@@ -33,6 +33,7 @@ $(document).ready(function(){
     $slide1.css({'filter': 'alpha(opacity=100)', 'opacity': '1'});
     $slide2.css({'filter': 'alpha(opacity=100)', 'opacity': '1'});
     $slide3.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
+    /*
     setTimeout(function(){
       setInterval(function(){
         $slide1.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
@@ -66,7 +67,7 @@ $(document).ready(function(){
       }, 6000);
     }, 5000);
 
-
+*/
 
   });
 
