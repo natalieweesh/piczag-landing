@@ -50,6 +50,7 @@ $(document).ready(function(){
 
     setInterval(function(){
       $slide1.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '2'});
+      console.log('slide1 on');
     },6000);
     setTimeout(function() {setInterval(function(){
       $slide1.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
@@ -63,6 +64,7 @@ $(document).ready(function(){
     },6000);
     setTimeout(function(){setInterval(function(){
       $slide2.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '2'});
+      console.log('slide2 on');
     },6000);}, 2000);
     setTimeout(function(){setInterval(function(){
       $slide2.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
@@ -76,6 +78,7 @@ $(document).ready(function(){
     },6000);}, 2000);
     setTimeout(function() {setInterval(function(){
       $slide3.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '2'});
+      console.log('slide3 on');
     },6000);}, 4000);
 
 
