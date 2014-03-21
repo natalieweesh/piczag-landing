@@ -66,7 +66,7 @@ $(document).ready(function(){
       $slide2.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
       $slide3.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '2'});
       console.log('slide3 on');
-    },6000);}, 400);
+    },6000);}, 4000);
 
 
 
