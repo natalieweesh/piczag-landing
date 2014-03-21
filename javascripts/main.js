@@ -38,7 +38,7 @@ $(document).ready(function(){
         $slide1.css({'filter': 'alpha(opacity=100)', 'opacity': '1'});
         console.log('slide1 on');
       }, 1000);  
-    }, 3000);
+    }, 6000);
 
     setTimeout(function(){
       setInterval(function(){
@@ -48,8 +48,8 @@ $(document).ready(function(){
           $slide2.css({'filter': 'alpha(opacity=100)', 'opacity': '1'});
           console.log('slide2 on');
         }, 1000);  
-      }, 3000);
-    }, 1000);
+      }, 6000);
+    }, 2000);
 
     setTimeout(function(){
       setInterval(function(){
@@ -59,8 +59,8 @@ $(document).ready(function(){
           $slide3.css({'filter': 'alpha(opacity=100)', 'opacity': '1'});
           console.log('slide3 on');
         }, 1000);  
-      }, 3000);
-    }, 2000);
+      }, 6000);
+    }, 4000);
 
 
 
