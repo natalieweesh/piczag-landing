@@ -27,9 +27,9 @@ $(document).ready(function(){
 
   $('.slideshow-container').each(function(){
     var slides = $(this).find('.slideshow-image');
-    var slide1 = $(slides[0]);
-    var slide2 = $(slides[1]);
-    var slide3 = $(slides[2]);
+    var $slide1 = $(slides[0]);
+    var $slide2 = $(slides[1]);
+    var $slide3 = $(slides[2]);
     setTimeout(function(){
       setInterval(function(){
         $slide1.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
