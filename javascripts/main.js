@@ -34,6 +34,7 @@ $(document).ready(function(){
     $slide2.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '1'});
     $slide3.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
     
+    /*
     setTimeout(function(){
       setInterval(function(){
         $slide1.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
@@ -45,7 +46,40 @@ $(document).ready(function(){
         }, 1000);  
       }, 6000);
     }, 2000);
+    */
 
+    setInterval(function(){
+      $slide1.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '2'});
+    },6000);
+    setTimeout(function() {setInterval(function(){
+      $slide1.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
+    },6000);}, 2000);
+    setTimeout(function() {setInterval(function(){
+      $slide1.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '1'});
+    },6000);}, 400);
+
+    setInterval(function(){
+      $slide2.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '1'});
+    },6000);
+    setTimeout(function(){setInterval(function(){
+      $slide2.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '2'});
+    },6000);}, 2000);
+    setTimeout(function(){setInterval(function(){
+      $slide2.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
+    },6000);}, 4000);
+
+    setInterval(function(){
+      $slide3.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
+    },6000);
+    setTimeout(function() {setInterval(function(){
+      $slide3.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '1'});
+    },6000);}, 2000);
+    setTimeout(function() {setInterval(function(){
+      $slide3.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '2'});
+    },6000);}, 4000);
+
+
+/*
     setTimeout(function(){
       setInterval(function(){
         $slide2.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
@@ -69,7 +103,7 @@ $(document).ready(function(){
         }, 1000);  
       }, 6000);
     }, 6000);
-
+*/
 
 
   });
