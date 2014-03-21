@@ -25,11 +25,6 @@ $(document).ready(function(){
 
   });
 
-  $('.slideshow-container').each(function(){
-    var slides = $(this).find('.slideshow-image');
-    console.log($(slides[0]).css('margin-left', '-200px'));
-    //setInterval(function(){slides[0]}, 1000);
-  });
 
   $(window).scroll(function(){
     var distances = [];
