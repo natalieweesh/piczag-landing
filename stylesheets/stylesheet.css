@@ -101,6 +101,10 @@ body {
   margin-top: 83px;
 }
 
+.iphone-screen[data-index=3] img {
+  margin-top: 137px;
+}
+
 /* line 31, styles.scss */
 .placeholder {
   z-index: 1;
