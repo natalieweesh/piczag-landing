@@ -31,14 +31,16 @@ $(document).ready(function(){
     var $slide2 = $(slides[1]);
     var $slide3 = $(slides[2]);
     
-    setInterval(function(){
-      $slide1.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
-      console.log('slide1 off');
-      setTimeout(function(){
-        $slide1.css({'filter': 'alpha(opacity=100)', 'opacity': '1'});
-        console.log('slide1 on');
-      }, 1000);  
-    }, 6000);
+    setTimeout(function(){
+      setInterval(function(){
+        $slide1.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
+        console.log('slide1 off');
+        setTimeout(function(){
+          $slide1.css({'filter': 'alpha(opacity=100)', 'opacity': '1'});
+          console.log('slide1 on');
+        }, 1000);  
+      }, 6000);
+    }, 1000);
 
     setTimeout(function(){
       setInterval(function(){
@@ -49,7 +51,7 @@ $(document).ready(function(){
           console.log('slide2 on');
         }, 1000);  
       }, 6000);
-    }, 2000);
+    }, 3000);
 
     setTimeout(function(){
       setInterval(function(){
@@ -60,7 +62,7 @@ $(document).ready(function(){
           console.log('slide3 on');
         }, 1000);  
       }, 6000);
-    }, 4000);
+    }, 5000);
 
 
 
