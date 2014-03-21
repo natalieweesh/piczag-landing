@@ -77,7 +77,7 @@ $(document).ready(function(){
     setTimeout(function() {setInterval(function(){
       $slide1.css({'filter': 'alpha(opacity=0)', 'opacity': '0', 'z-index': '2'});
       $slide2.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
-      $slide3.css({'filter': 'alpha(opacity=100)', 'opacity': '1'});
+      $slide3.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '1'});
     },6000);}, 5000);
 
 
