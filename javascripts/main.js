@@ -33,16 +33,20 @@ $(document).ready(function(){
     
     setInterval(function(){
       $slide1.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
+      console.log('slide1 off');
       setTimeout(function(){
         $slide1.css({'filter': 'alpha(opacity=100)', 'opacity': '1'});
+        console.log('slide1 on');
       }, 1000);  
     }, 3000);
 
     setTimeout(function(){
       setInterval(function(){
         $slide2.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
+        console.log('slide2 off');
         setTimeout(function(){
           $slide2.css({'filter': 'alpha(opacity=100)', 'opacity': '1'});
+          console.log('slide2 on');
         }, 1000);  
       }, 3000);
     }, 1000);
@@ -50,8 +54,10 @@ $(document).ready(function(){
     setTimeout(function(){
       setInterval(function(){
         $slide3.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
+        console.log('slide3 off');
         setTimeout(function(){
           $slide3.css({'filter': 'alpha(opacity=100)', 'opacity': '1'});
+          console.log('slide3 on');
         }, 1000);  
       }, 3000);
     }, 2000);
