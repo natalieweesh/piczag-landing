@@ -253,6 +253,11 @@ body {
   .slide .content .mobile-image img {
     width: 260px;
   }
+  .mobile-image.slideshow {
+    width: 260px;
+    height: 461px;
+    display: block;
+  }
 
   /* line 120, styles.scss */
   #wrapper {
