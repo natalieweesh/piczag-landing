@@ -50,23 +50,35 @@ $(document).ready(function(){
     */
 
     setInterval(function(){
-      $slide1.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '2'});
-      $slide2.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '1'});
+      $slide1.css({'filter': 'alpha(opacity=100)', 'opacity': '1'});
+      $slide2.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
       $slide3.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
-      console.log('slide1 on');
     },6000);
     setTimeout(function() {setInterval(function(){
+      $slide1.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '1'});
+      $slide2.css({'filter': 'alpha(opacity=0)', 'opacity': '0', 'z-index': '2'});
+      $slide3.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
+    },6000);}, 1000);
+    setTimeout(function() {setInterval(function(){
       $slide1.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
-      $slide2.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '2'});
-      $slide3.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '1'});
-      console.log('slide2 on');
+      $slide2.css({'filter': 'alpha(opacity=100)', 'opacity': '1');
+      $slide3.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
     },6000);}, 2000);
     setTimeout(function() {setInterval(function(){
-      $slide1.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '1'});
+      $slide1.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
+      $slide2.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '1');
+      $slide3.css({'filter': 'alpha(opacity=0)', 'opacity': '0', 'z-index': '2'});
+    },6000);}, 3000);
+    setTimeout(function() {setInterval(function(){
+      $slide1.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
       $slide2.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
-      $slide3.css({'filter': 'alpha(opacity=100)', 'opacity': '1', 'z-index': '2'});
-      console.log('slide3 on');
+      $slide3.css({'filter': 'alpha(opacity=100)', 'opacity': '1'});
     },6000);}, 4000);
+    setTimeout(function() {setInterval(function(){
+      $slide1.css({'filter': 'alpha(opacity=0)', 'opacity': '0', 'z-index': '2'});
+      $slide2.css({'filter': 'alpha(opacity=0)', 'opacity': '0'});
+      $slide3.css({'filter': 'alpha(opacity=100)', 'opacity': '1'});
+    },6000);}, 5000);
 
 
 
